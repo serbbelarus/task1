@@ -17,10 +17,8 @@ header {
   padding-bottom: 28px;
 }
 header .heading {
-  margin-left: 10px;
   display: flex;
   align-items: center;
-  margin-top: 10px;
 }
 
 header .heading img {
@@ -31,7 +29,6 @@ header .heading img {
 header .heading .heading_title {
   margin-left: 10px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
 }
 
@@ -52,14 +49,13 @@ header nav {
 }
 header nav ul {
   display: flex;
-  gap: 2rem;
+  gap: 11px;
 }
 
 header nav ul li {
   border-right: 1px solid #ccc;
   list-style: none;
-  padding: 0.5rem 1rem;
-  font-weight: 600;
+  padding: 8px 16px;
   cursor: pointer;
 }
 
@@ -67,6 +63,7 @@ header nav ul li:hover {
   color: blue;
 }
 header nav ul li a {
+  font-weight: 600;
   text-decoration: none;
   color: currentColor;
 }
