@@ -67,3 +67,50 @@ header nav ul li a {
   text-decoration: none;
   color: currentColor;
 }
+.advertising {
+  background-color: rgb(234, 230, 230);
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.phone {
+  height: 380px;
+  width: 348px;
+  padding-left: 100px;
+  padding-top: 53px;
+}
+.advertising_right {
+  font-size: 31px;
+  color: #003d48;
+  font-weight: 300;
+  font-family: "Source Sans Pro";
+  padding-left: 50px;
+}
+.advertising .advertising_right .content_start {
+  font-size: 31px;
+  color: #003d48;
+  font-weight: 300;
+  font-family: "Source Sans Pro";
+}
+.advertising .advertising_right h2 {
+  margin: 0;
+  padding: 0;
+}
+.advertising .advertising_right p {
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  padding-top: 38px;
+}
+.advertising .advertising_right button {
+  width: 129px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #f77462;
+  color: white;
+  margin-top: 52px;
+}
