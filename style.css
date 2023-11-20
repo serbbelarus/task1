@@ -89,7 +89,7 @@ header nav ul li a {
   font-family: "Source Sans Pro";
   padding-left: 50px;
 }
-.advertising .advertising_right .content_start {
+.advertising .advertising_right p:nth-child(1) {
   font-size: 31px;
   color: #003d48;
   font-weight: 300;
