@@ -71,22 +71,17 @@ header nav ul li a {
   background-color: #ebebeb;
   padding: 10px;
   display: flex;
-  flex-flow: row wrap;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
 }
-.phone {
+.advertising img {
   height: 380px;
   width: 348px;
-  padding-left: 100px;
-  padding-top: 53px;
+  margin-left: 100px;
+  margin-top: 53px;
 }
 .advertising_right {
-  font-size: 31px;
-  color: #003d48;
-  font-weight: 300;
-  font-family: "Source Sans Pro";
   padding-left: 50px;
 }
 .advertising .advertising_right p:nth-child(1) {
@@ -111,8 +106,7 @@ header nav ul li a {
   padding-right: 163px;
 }
 .advertising .advertising_right button {
-  width: 129px;
-  height: 44px;
+  padding: 15px;
   border-radius: 3px;
   border: 0;
   background-color: #f77462;
