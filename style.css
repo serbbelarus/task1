@@ -67,3 +67,33 @@ header nav ul li a {
   text-decoration: none;
   color: currentColor;
 }
+
+.aboutUs {
+  background-color: #6dc5dd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.aboutUs_firstBlock {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: flex-start;
+}
+.aboutUs_firstBlock h4 {
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Sans Pro";
+}
+.aboutUs_firstBlock img {
+  width: 63px;
+  height: 63px;
+  border-radius: 31px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
