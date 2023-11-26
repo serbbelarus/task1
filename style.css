@@ -67,3 +67,48 @@ header nav ul li a {
   text-decoration: none;
   color: currentColor;
 }
+.advertising {
+  background-color: #ebebeb;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.advertising img {
+  height: 380px;
+  width: 348px;
+  margin-left: 100px;
+  margin-top: 53px;
+}
+.advertising_right {
+  padding-left: 50px;
+}
+.advertising .advertising_right p:nth-child(1) {
+  font-size: 31px;
+  color: #352d2a;
+  font-weight: 300;
+  font-family: "Source Sans Pro";
+}
+.advertising .advertising_right h2 {
+  font-size: 43px;
+  font-family: "Source Sans Pro";
+  color: #003d48;
+  margin: 0;
+  padding: 0;
+}
+.advertising .advertising_right p {
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  padding-top: 38px;
+  padding-right: 163px;
+}
+.advertising .advertising_right button {
+  padding: 15px;
+  border-radius: 3px;
+  border: 0;
+  background-color: #f77462;
+  color: white;
+  margin-top: 52px;
+}
