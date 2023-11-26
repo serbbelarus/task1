@@ -71,7 +71,6 @@ header nav ul li a {
   background-color: #ebebeb;
   padding: 10px;
   display: flex;
-  flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
 }
