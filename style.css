@@ -74,26 +74,73 @@ header nav ul li a {
   flex-direction: row;
   justify-content: space-around;
 }
-.aboutUs_firstBlock {
+.aboutUs .aboutUs_Block {
   color: white;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-content: space-around;
-  align-items: flex-start;
 }
-.aboutUs_firstBlock h4 {
-  font-size: 20px;
-  line-height: 29px;
-  color: #ffffff;
-  font-weight: 700;
-  font-family: "Source Sans Pro";
-}
-.aboutUs_firstBlock img {
+.aboutUs .aboutUs_Block .flag {
   width: 63px;
   height: 63px;
   border-radius: 31px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
+  margin-top: 60px;
+  margin-left: 26px;
+  margin-right: 23px;
+  margin-bottom: 145px;
+}
+.aboutUs .aboutUs_Block .main_part {
+  margin-top: 64px;
+}
+.aboutUs .aboutUs_Block .main_part h4 {
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Sans Pro";
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.aboutUs .aboutUs_Block .main_part i {
+  margin-top: 30px;
+}
+.aboutUs .aboutUs_Block .foot {
+  display: flex;
+  align-items: center;
+  margin-top: 27px;
+}
+.aboutUs .aboutUs_Block .foot h6 {
+  margin: 0;
+}
+.aboutUs .aboutUs_Block .foot img {
+  width: 13px;
+  height: 14px;
+  margin-left: 11px;
+  cursor: pointer;
+}
+
+.aboutUs .aboutUs_Block .camera {
+  width: 63px;
+  height: 63px;
+  border-radius: 31px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-top: 61px;
+  margin-left: 45px;
+  margin-right: 27px;
+  margin-bottom: 146px;
+}
+.aboutUs .aboutUs_Block .house {
+  width: 63px;
+  height: 63px;
+  border-radius: 31px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-top: 61px;
+  margin-left: 73px;
+  margin-right: 27px;
+  margin-bottom: 146px;
+}
+#main_part_last {
+  margin-right: 44px;
 }
