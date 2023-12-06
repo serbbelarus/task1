@@ -163,7 +163,7 @@ header nav ul li a {
 }
 .aboutUs .aboutUs_Block .right .foot a {
   text-decoration: none;
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 .aboutUs .aboutUs_Block .right .foot a:hover {
