@@ -168,3 +168,139 @@ p {
   height: 14px;
   margin-left: 11px;
 }
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.woman {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .woman img {
+  height: 197px;
+  width: 189px;
+  margin-left: 30px;
+}
+.text_right {
+  padding-left: 28px;
+}
+.navigation .woman .text_right h4 {
+  font-size: 20px;
+  line-height: 29px;
+  color: #003d48;
+  font-weight: 700;
+  font-family: "Source Sans Pro";
+  margin: 0;
+}
+.navigation .woman .text_right p {
+  width: 524px;
+  height: 112px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #8c9193;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+}
+.navigation .woman button {
+  width: 71px;
+  height: 39px;
+  border-radius: 3px;
+  background-color: #f77462;
+  border: 0;
+  color: white;
+}
+
+.man {
+  display: flex;
+  align-items: center;
+}
+.navigation .man img {
+  height: 197px;
+  width: 189px;
+  margin-left: 30px;
+}
+.navigation .man .text_right h4 {
+  font-size: 20px;
+  line-height: 29px;
+  color: #003d48;
+  font-weight: 700;
+  font-family: "Source Sans Pro";
+  margin: 0;
+}
+.navigation .man .text_right p {
+  width: 524px;
+  height: 112px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #8c9193;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+}
+.navigation .man button {
+  width: 71px;
+  height: 39px;
+  border-radius: 3px;
+  background-color: #f77462;
+  border: 0;
+  color: white;
+}
+
+.dropdown {
+  display: block;
+}
+.menu_right {
+  position: relative;
+  display: block;
+  left: 750px;
+  top: 50px;
+}
+.menu_right button:nth-child(1) {
+  background-color: white;
+  color: rgb(195, 119, 26);
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.568);
+  cursor: pointer;
+}
+.menu_right button:nth-child(2) {
+  background-color: white;
+  color: rgb(195, 119, 26);
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.57);
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9dd70a6f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(16, 11, 11, 0.422);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: white;
+  color: rgb(154, 157, 170);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #024d5c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover button {
+  background-color: #2f2d30;
+}
+
+.dropdown-content a span {
+  color: aqua;
+}
