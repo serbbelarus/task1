@@ -50,15 +50,17 @@ header nav {
 header nav ul {
   display: flex;
   gap: 11px;
+  padding-right: 32px;
 }
 
 header nav ul li {
   border-right: 1px solid #ccc;
   list-style: none;
-  padding: 8px 16px;
   cursor: pointer;
 }
-
+header nav ul li:last-child {
+  border: 0;
+}
 header nav ul li:hover {
   color: blue;
 }
@@ -66,10 +68,10 @@ header nav ul li a {
   font-weight: 600;
   text-decoration: none;
   color: currentColor;
+  padding: 8px 16px;
 }
 .advertising {
   background-color: #ebebeb;
-  padding: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -127,7 +129,7 @@ header nav ul li a {
   align-items: flex-start;
 }
 .aboutUs .aboutUs_Block h4,
-p {
+.aboutUs .aboutUs_Block p {
   color: white;
 }
 .aboutUs .aboutUs_Block .left_img {
@@ -158,6 +160,15 @@ p {
   display: flex;
   align-items: center;
   margin-top: 27px;
+}
+.aboutUs .aboutUs_Block .right .foot a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.aboutUs .aboutUs_Block .right .foot a:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
 .aboutUs .aboutUs_Block .right .foot h6 {
   color: white;
